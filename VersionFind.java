@@ -2,8 +2,8 @@
 public class VersionFind {
     public static void main(String[] args) {
 
-        String a = "0.0.0.0.0.0.0.0.0.0.0.0.1.1.1";
-        String b = "0.0.0.0.0.0.0.0.0.0.0.0.2";
+        String a = "0.0.0.0.0.0.0.0.0.0.0.0.1.0.0";
+        String b = "0.0.0.0.0.0.0.0.0.0.0.0.1";
 
         int minLength = Math.min(a.length(), b.length());
         // int maxLength = Math.max(a.length(), b.length());
