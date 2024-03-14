@@ -8,8 +8,7 @@ int input=121;
             reverse = reverse * 10 + remainder;
         }
 
-        // System.out.println(reverse);
-        // System.out.println(input);
+    
         if (input == reverse) {
             System.out.println("Given number is palindrome");
         } else {
